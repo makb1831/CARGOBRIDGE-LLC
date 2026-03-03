@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-darkest: #000000;
+  --color-brand-dark: #0a0a0a;
+  --color-brand-medium-dark: #926600;
+  --color-brand-medium: #D99201;
+  --color-brand-light: #39FF14;
+  --color-brand-lightest: #FDE68A;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-darkest text-brand-lightest font-sans;
+  }
+}
+
+.dropdown-content {
+  @apply absolute top-full left-0 bg-brand-dark text-white min-w-[200px] shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 py-2;
+}
+
+.dropdown-item {
+  @apply block px-4 py-2 hover:bg-brand-medium-dark transition-colors;
+}
