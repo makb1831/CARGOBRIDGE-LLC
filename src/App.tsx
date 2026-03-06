@@ -263,9 +263,13 @@ export default function App() {
             <Clock size={14} className="text-brand-lightest" />
             US 24/7/365
           </span>
-          <a href="tel:4077777558" className="flex items-center gap-1.5 hover:text-white transition-colors">
+          <a href="tel:3365963235" className="flex items-center gap-1.5 hover:text-white transition-colors">
             <Phone size={14} className="text-brand-lightest" />
-            (407) 777-7558
+            (336) 596-3235
+          </a>
+          <a href="mailto:justbeing218@gmail.com" className="flex items-center gap-1.5 hover:text-white transition-colors">
+            <Mail size={14} className="text-brand-lightest" />
+            justbeing218@gmail.com
           </a>
         </div>
         <div className="hidden md:flex items-center gap-4">
@@ -300,7 +304,7 @@ export default function App() {
               <Truck size={24} />
             </div>
             <div className="flex flex-col">
-              <span className="font-bold text-xl leading-none text-white uppercase tracking-tight">HAUL OPERATOR LLC</span>
+              <span className="font-bold text-xl leading-none text-white uppercase tracking-tight">CARGOBRIDGE LLC</span>
               <span className="text-[10px] font-bold tracking-[0.2em] text-brand-medium uppercase">Logistics Solutions</span>
             </div>
           </div>
@@ -673,15 +677,23 @@ export default function App() {
 
             <div>
               <h4 className="font-bold text-white mb-6 uppercase tracking-widest text-xs">Company Details</h4>
-              <div className="p-4 bg-white/5 rounded-xl border border-white/10">
-                <p className="text-sm font-bold text-brand-lightest mb-1 uppercase">HAUL OPERATOR LLC</p>
-                <p className="text-xs text-white/40">Saint Cloud, FL</p>
+              <div className="p-4 bg-white/5 rounded-xl border border-white/10 space-y-2">
+                <p className="text-sm font-bold text-brand-lightest mb-1 uppercase">CARGOBRIDGE LLC</p>
+                <p className="text-xs text-white/40">EXINGTON, NC, 27292</p>
+                <a href="tel:3365963235" className="text-xs text-white/60 hover:text-brand-lightest transition-colors flex items-center gap-1.5">
+                  <Phone size={12} />
+                  (336) 596-3235
+                </a>
+                <a href="mailto:justbeing218@gmail.com" className="text-xs text-white/60 hover:text-brand-lightest transition-colors flex items-center gap-1.5">
+                  <Mail size={12} />
+                  justbeing218@gmail.com
+                </a>
               </div>
             </div>
           </div>
 
           <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-white/30">
-            <p>© 2026 HAUL OPERATOR LLC. All rights reserved.</p>
+            <p>© 2026 CARGOBRIDGE LLC. All rights reserved.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-white">Terms of Service</a>
               <a href="#" className="hover:text-white">Cookie Policy</a>
